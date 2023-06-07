@@ -1,0 +1,29 @@
+.MainContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 45px);
+}
+
+.photoContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    height: 85%;
+    width: 85%;
+    padding: 15px 60px;
+    background-color: rgb(249, 251, 231);
+}
+
+.errorContainer {
+    color: red;
+    font-size: 32px;
+}
+
+.footer {
+    margin-top: 10px;
+    font-size: 20px;
+}
